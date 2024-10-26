@@ -28,6 +28,7 @@ def get_db_connection():
         database="food_app_ml"
     )
 
+
 # Initialize the items table if it doesn’t exist
 def initialize_database():
     conn = get_db_connection()
